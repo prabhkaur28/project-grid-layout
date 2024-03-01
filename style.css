@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+
+}
+.header{
+    height: 120px;
+    width: 100%;
+   background-color: rgb(235, 87, 116);
+    border-radius:5px ;
+    text-align: center;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.main{
+    height: 60vh;
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+.sidebar{
+    height:60vh ;
+    background-color:pink ;
+    border-radius: 5px;
+    text-align: center;
+}
+.content{
+    height: 60vh;
+    background-color: rgb(176, 237, 241);
+    border-radius: 5px;
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+.box{
+    height: 30vh;
+    background-color: rgb(119, 198, 227);
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+.box-1{
+ background-color: rgb(231, 231, 141);
+ height: 12vh;
+ border-radius: 5px;
+ margin: 10px;
+}
+.section{
+    background-color: rgb(70, 173, 213);
+    height: 100px;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+ }
+.footer{
+    height:120px ;
+    width: 100%;
+    background-color: mediumslateblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+@media  only screen and (max-width:500px){
+    .content{
+        display:grid;
+        
+    
+    }
+    
+}
